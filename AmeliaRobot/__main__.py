@@ -81,7 +81,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ɴᴀᴛᴀsʜᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="http://t.me/NatashaRomanoff_GroupBot?startgroup=true"),
+            text="➕️ ᴀᴅᴅ ɴᴀᴛᴀsʜᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="http://t.me/TheNatashaBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="amelia_"),
@@ -357,7 +357,7 @@ def amelia_about_callback(update, context):
                  \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_bot licensed under the GNU General Public License v3.0_
-                 \nHere is the [Owner I'D](https://t.me/AnnihilusOP).
+                 \nHere is the [Updates Channel](https://t.me/MoviZenX).
                  \n\nIf you have any question about amelia, let us know at @MZX_Support.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -385,7 +385,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *ɴᴀᴛᴀsʜᴀ*
-                 \nHere is the [Owner ID](https://t.me/AnnihilusOP) .""",
+                 \nHere is the [Updates Channel](https://t.me/MoviZenX) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
